@@ -1,0 +1,16 @@
+.page {
+  max-width: 1440px;
+  background-color: #ecebe8;
+  margin: 0 auto;
+  color: #242424;
+  font-family: "FormularLight", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
