@@ -1,0 +1,22 @@
+.social__link {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  display: block;
+  width: 100%;
+  position: absolute;
+}
+
+.social__link::before {
+  content: url('../../../images/arrow.svg');
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 13px;
+  display: inline-block;
+  transform: rotate(180deg);
+  margin-right: 5px;
+  vertical-align: middle;
+}

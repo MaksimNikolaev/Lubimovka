@@ -1,3 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
+
+/*-----------Секция Social-------------*/
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__photo-container/social__photo-container.css);
+@import url(../blocks/social/__photo/social__photo.css);
+@import url(../blocks/social/__list/social__list.css);
+@import url(../blocks/social/__item/social__item.css);
+@import url(../blocks/social/__link/social__link.css);
+@import url(../blocks/social/__title/social__title.css);
+@import url(../blocks/social/__subtitle/social__subtitle.css);
+/*--------------------------------------/
