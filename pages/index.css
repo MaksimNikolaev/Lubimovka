@@ -5,6 +5,7 @@
 /*-----------Секция Social-------------*/
 @import url(../blocks/social/social.css);
 @import url(../blocks/social/__photo-container/social__photo-container.css);
+@import url(../blocks/social/__group/social__group.css);
 @import url(../blocks/social/__photo/social__photo.css);
 @import url(../blocks/social/__list/social__list.css);
 @import url(../blocks/social/__item/social__item.css);

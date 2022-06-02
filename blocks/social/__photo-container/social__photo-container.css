@@ -2,3 +2,9 @@
   max-width: 1320px;
   padding-bottom: 40px;
 }
+
+@media (max-width: 320px) {
+  .social__photo-container {
+    padding-bottom: 25px;
+  }  
+}

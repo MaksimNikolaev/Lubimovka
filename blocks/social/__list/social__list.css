@@ -5,3 +5,7 @@
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 320px) {
+  .social__list { grid-area: social; }
+}

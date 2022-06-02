@@ -9,9 +9,3 @@
 .social__item:last-child {
   margin-right: 0;
 }
-
-.social__group {
-  display: grid;
-  max-width: 666px;
-  margin: 0 auto;
-}
