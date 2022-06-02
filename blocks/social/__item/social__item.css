@@ -4,8 +4,13 @@
   border: 1px solid #242424;
   border-width: 0 0 1px 1px;
   margin-right: 8px;
+  transition: background-color .4s;
 }
 
 .social__item:last-child {
   margin-right: 0;
+}
+
+.social__item:hover {
+  background-color: black;
 }
