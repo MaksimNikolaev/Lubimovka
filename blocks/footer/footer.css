@@ -1,0 +1,12 @@
+.footer {
+  padding: 48px 2.23% 54px;
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr; 
+  grid-template-rows: 60px 1fr 60px; 
+  gap: 49px 0px; 
+  grid-template-areas: 
+    "Logo Partners Partners Partners Partners"
+    "Logo Contact menu menu menu"
+    "Logo copyright copyright disign develop";
+}

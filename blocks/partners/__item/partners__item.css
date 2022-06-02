@@ -1,0 +1,7 @@
+.partners__item {
+  margin-right: 31px;
+}
+
+.partners__item:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,5 @@
+.footer__menu {
+  grid-area: menu; 
+  display: flex;
+  justify-content: space-between;
+}

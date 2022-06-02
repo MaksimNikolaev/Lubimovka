@@ -1,0 +1,4 @@
+.footer__contacts {
+  grid-area: Contact;
+  max-width: 231px;
+}

@@ -1,0 +1,4 @@
+.footer__copyright-group {
+  grid-area: copyright;
+  display: flex;
+}

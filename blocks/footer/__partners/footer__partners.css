@@ -1,0 +1,7 @@
+.footer__partners {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  grid-area: Partners;
+}
