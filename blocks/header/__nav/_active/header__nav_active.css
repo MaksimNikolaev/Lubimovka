@@ -1,3 +1,14 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .header__nav_active {
   display: flex;
+  animation: fadeIn;
+  animation-duration: 1s;
 }
