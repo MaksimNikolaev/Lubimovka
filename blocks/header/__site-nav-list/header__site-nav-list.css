@@ -26,19 +26,8 @@
     gap: 10px;
     position: absolute;
     top: 90px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header__site-nav-list {
-    top: 30px;
     right: 80px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .header__site-nav-list {
-    top: 90px;
-    right: 80px;
+    background-color: #ecebe8;
+    padding-left: 200px;
   }
 }
