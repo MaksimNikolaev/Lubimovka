@@ -24,5 +24,6 @@
   .header__social-links-list {
     padding: 0 0 10px 0;
     gap: 7px;
+    flex-wrap: wrap;
   }
 }
