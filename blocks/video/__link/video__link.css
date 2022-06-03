@@ -1,0 +1,14 @@
+.video__link {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 138%;
+  color: inherit;
+  border-top: 1px solid #242424;
+  background-image: url(../../../images/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 190px;
+  height: 55px;
+  box-sizing: border-box;
+  padding: 15px 16px 18px;
+}
