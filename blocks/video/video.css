@@ -1,0 +1,6 @@
+.video {
+  display: flex;
+  gap: 90px;
+  box-sizing: border-box;
+  padding: 0 30px 144px 182px;
+}

@@ -1,3 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__info/video__info.css);
+@import url(../blocks/video/__duration/video__duration.css);
+@import url(../blocks/video/__text/video__text.css);
+@import url(../blocks/video/__people-name/video__people-name.css);
+@import url(../blocks/video/__wrapper/video__wrapper.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/video/__paragraph/video__paragraph.css);
+@import url(../blocks/video/__buttons/video__buttons.css);
+@import url(../blocks/video/__button/video__button.css);
+@import url(../blocks/video/__author/video__author.css);
