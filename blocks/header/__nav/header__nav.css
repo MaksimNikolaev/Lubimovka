@@ -10,16 +10,11 @@
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 30px;
-    right: 75px;
+    top: 72px;
+    right: 0;
     background-color: #ecebe8;
     padding: 0 20px;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .header__nav {
-    top: 102px;
-    right: 0;
+    border-left: 1px solid #242424;
+    border-bottom: 1px solid #242424;
   }
 }

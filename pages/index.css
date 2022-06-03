@@ -25,3 +25,5 @@
 @import url(../blocks/header/__social-nav/header__social-nav.css);
 @import url(../blocks/fade/fade.css);
 @import url(../blocks/header/__nav/_active/header__nav_active.css);
+@import url(../blocks/button-swipe-left/button-swipe-left.css);
+@import url(../blocks/header/__burger-menu/_active/header__burger-menu_active.css);
