@@ -24,10 +24,6 @@
   .header__site-nav-list {
     flex-direction: column;
     gap: 10px;
-    position: absolute;
-    top: 90px;
-    right: 80px;
-    background-color: #ecebe8;
-    padding-left: 200px;
+    padding: 0 0 10px 0;
   }
 }

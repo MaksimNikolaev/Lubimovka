@@ -4,6 +4,7 @@
   height: 72px;
   background-color: #242424;
   border: none;
+  padding: 0;
   background-image: url(../../../images/burgersvg.svg);
   background-repeat: no-repeat;
   background-position: center;

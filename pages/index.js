@@ -1,6 +1,6 @@
 //выпадающее меню сайта
 
-const headerSiteNav = document.querySelector(".header__site-nav");
+const headerSiteNav = document.querySelector(".header__nav");
 const burgerButton = document.querySelector(".header__burger-menu");
 
 function toggleSiteNav() {

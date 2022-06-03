@@ -10,5 +10,6 @@
   .header__social-nav {
     border: none;
     align-items: flex-start;
+    flex-direction: column;
   }
 }
