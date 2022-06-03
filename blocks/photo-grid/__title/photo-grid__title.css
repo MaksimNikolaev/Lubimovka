@@ -4,6 +4,7 @@
   line-height: 100%;
   letter-spacing: -0.01em;
   max-width: 568px;
+  font-family: 'PPNeueMachina';
 }
 
 @media screen and (max-width: 1439px) {
