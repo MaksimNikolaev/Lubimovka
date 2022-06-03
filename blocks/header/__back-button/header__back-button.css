@@ -1,2 +1,51 @@
 .header__back-button {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  gap: 10px;
+  border: none;
+  border-bottom: 1px solid #242424;
+  border-right: 1px solid #242424;
+  padding: 0 0 9px 0;
+  margin-left: 30px;
+  width: 120px;
+  height: 31px;
+  background-color: transparent;
+
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  color: #242424;
+  fill: #242424;
+}
+
+.header__back-button {
+  background: linear-gradient(to right, transparent 50%, #242424 50%) left;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+.header__back-button:hover {
+  cursor: pointer;
+  background-position: right;
+  color: aliceblue;
+  fill: aliceblue;
+}
+
+.header__back-button:active {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 1279px) {
+  .header__back-button {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__logo-container {
+    margin-left: 19px;
+  }
 }

@@ -1,0 +1,33 @@
+.header__support-container {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-left: 1px solid #242424;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__support-container {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header__support-container {
+    padding: 0 10px 0 7px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__support-container {
+    border-bottom: 1px solid #242424;
+    padding: 0 0 0 23px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__support-container {
+    border: none;
+  }
+}

@@ -10,77 +10,110 @@
     <header class="header">
       <div class="header__menu-container">
         <div class="header__logo-container">
-          <img src="./images/logo.svg" alt="#" class="header__logo" /><button
+          <img
+            src="./images/logo.svg"
+            alt="Логотип Любимовки - сердечко"
+            class="header__logo"
+          />
+          <button
             type="button"
             class="header__back-button header__back-button_position_top"
-          ></button>
+          >
+            проекты
+            <svg
+              width="21"
+              height="13"
+              viewBox="0 0 21 13"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.7232e-08 6.52344L0.724826 5.79861L6.52344 -2.21465e-08L7.22631 0.702867L1.90563 6.02354L21 6.02354L21 7.02354L1.94976 7.02354L7.20139 12.2752L6.47656 13L0.702867 7.22631L7.7232e-08 6.52344Z"
+              />
+            </svg>
+          </button>
         </div>
         <div class="header__nav">
           <nav class="header__site-nav">
             <ul class="header__site-nav-list">
               <li class="header__site-nav-item">
-                <a href="#" class="header__site-nav-link">Афиша</a>
+                <a href="#" class="header__site-nav-link fade">Афиша</a>
               </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__site-nav-link">Библиотека</a>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">Библиотека</a>
               </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__site-nav-link">Проекты</a>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">Проекты</a>
               </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__site-nav-link">История</a>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">История</a>
               </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__site-nav-link">Блог</a>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">Блог</a>
               </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__site-nav-link">Новости</a>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">Новости</a>
               </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__site-nav-link">О Фестивале</a>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade"
+                  >О&nbsp;Фестивале</a
+                >
               </li>
-              <li class="header__nav-item">
-                <a href="#" class="header__site-nav-link">Контакты</a>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">Контакты</a>
               </li>
             </ul>
           </nav>
           <nav class="header__social-nav">
             <ul class="header__social-links-list">
               <li class="header__social-link-item">
-                <a href="#" class="header__social-link">fb</a>
+                <a href="#" class="header__social-link fade">fb</a>
               </li>
               <li class="header__social-link-item">
-                <a href="#" class="header__social-link">inst</a>
+                <a href="#" class="header__social-link fade">inst</a>
               </li>
               <li class="header__social-link-item">
-                <a href="#" class="header__social-link">ytube</a>
+                <a href="#" class="header__social-link fade">ytube</a>
               </li>
               <li class="header__social-link-item">
-                <a href="#" class="header__social-link">tlgrm</a>
+                <a href="#" class="header__social-link fade">tlgrm</a>
               </li>
               <li class="header__social-link-item">
-                <a href="#" class="header__social-link">vk</a>
+                <a href="#" class="header__social-link fade">vk</a>
               </li>
             </ul>
-            <button type="button" class="header__support-button">
-              <svg
-                width="13px"
-                height="13px"
-                class="header__support-plus"
-              ></svg>
-              Поддержать
-            </button>
+            <div class="header__support-container">
+              <a href="#" class="header__support-link fade">
+                <img
+                  src="./images/plus.svg"
+                  alt="+"
+                  class="header__support-plus"
+                />
+                <p class="header__support-text">поддержать</p>
+              </a>
+            </div>
+            <button type="button" class="header__burger-menu fade"></button>
           </nav>
         </div>
-        <button type="button" class="header__burger-menu"></button>
       </div>
-
       <button
         type="button"
         class="header__back-button header__back-button_position_bottom"
       >
-        Проекты
-        <svg class="header__back-button-arrow"></svg>
+        проекты
+        <svg
+          width="21"
+          height="13"
+          viewBox="0 0 21 13"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M7.7232e-08 6.52344L0.724826 5.79861L6.52344 -2.21465e-08L7.22631 0.702867L1.90563 6.02354L21 6.02354L21 7.02354L1.94976 7.02354L7.20139 12.2752L6.47656 13L0.702867 7.22631L7.7232e-08 6.52344Z"
+          />
+        </svg>
       </button>
     </header>
 
@@ -95,6 +128,6 @@
     <section class="social"></section>
 
     <footer></footer>
-    <script src="./script/index.js"></script>
+    <script src="./pages/index.js"></script>
   </body>
 </html>

@@ -1,5 +1,6 @@
 .header__nav {
   display: flex;
   justify-content: end;
+
   flex-wrap: wrap;
 }

@@ -1,2 +1,11 @@
 .header__site-nav {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__site-nav {
+    display: none;
+  }
 }

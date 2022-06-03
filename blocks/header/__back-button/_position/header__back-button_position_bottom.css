@@ -1,2 +1,8 @@
 .header__back-button_position_bottom {
 }
+
+@media screen and (max-width: 1023px) {
+  .header__back-button_position_bottom {
+    display: none;
+  }
+}
