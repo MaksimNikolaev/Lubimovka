@@ -12,3 +12,13 @@
 @import url(../blocks/video/__buttons/video__buttons.css);
 @import url(../blocks/video/__button/video__button.css);
 @import url(../blocks/video/__author/video__author.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__title/photo-grid__title.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
+@import url(../blocks/photo-grid/__list-item/photo-grid__list-item.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+@import url(../blocks/popup-photo/popup-photo.css);
+@import url(../blocks/popup-photo/__container/popup-photo__container.css);
+@import url(../blocks/popup-photo/__item/popup-photo__item.css);
+@import url(../blocks/popup-photo/_opened/popup-photo_opened.css);
+
