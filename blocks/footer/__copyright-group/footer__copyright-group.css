@@ -2,3 +2,27 @@
   grid-area: copyright;
   display: flex;
 }
+
+@media (max-width: 768px) {
+  .footer__copyright-group {
+    justify-self: normal;
+  }
+}
+
+@media (max-width: 414px) {
+  .footer__copyright-group {
+    display: block;
+    position: relative;
+  }
+  .footer__copyright-group::before {
+    content: "";
+    display: block;    
+    border: none;
+    margin: 0;
+    margin-bottom: 37px;
+    background-color: #242424;
+    opacity: 0.7;
+    height: 1px;
+  }
+  
+}

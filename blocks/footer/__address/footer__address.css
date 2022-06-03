@@ -3,3 +3,10 @@
   font-size: 14px;
   line-height: 17px;
 }
+
+@media (max-width: 414px) {
+  .footer__address {
+    font-size: 16px;
+    opacity: 0.6;
+  }
+}

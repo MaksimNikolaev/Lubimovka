@@ -6,6 +6,9 @@
   padding: 0;
 }
 
-@media (max-width: 320px) {
-  .social__list { grid-area: social; }
+@media (max-width: 414px) {
+  .social__list { 
+    grid-area: social; 
+    justify-content: normal;
+  }
 }

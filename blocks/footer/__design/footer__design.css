@@ -4,4 +4,25 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
+  margin-right: 10px;
+  position: relative;
+  max-width: 169px;
+}
+
+.footer__design::before {
+  content: url('../../../images/footer/disign.svg');
+  position: absolute;
+  width: 27px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+  top: 5px;
+  left: -30px;
+}
+
+@media (max-width: 414px) {
+  .footer__design {
+    margin-right: 0;
+    margin-left: 32px;
+  }
 }

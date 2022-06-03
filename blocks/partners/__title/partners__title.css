@@ -4,3 +4,21 @@
   line-height: 17px;
   max-width: 145px;
 }
+
+.partners__title:nth-of-type(2)
+  {
+    display: none;
+  }
+
+@media (max-width: 585px) {
+  .partners__title 
+  {
+    margin-right: 10px;
+    line-height: 20px;
+    max-width: 100%;
+  }
+  .partners__title:nth-of-type(2)
+  {
+    display: block;
+  }
+}

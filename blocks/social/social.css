@@ -2,7 +2,7 @@
   padding: 0 4.17% 139px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .social {
     padding: 0 0 100px;
   }  

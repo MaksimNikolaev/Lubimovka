@@ -2,3 +2,10 @@
   grid-area: Contact;
   max-width: 231px;
 }
+
+@media (max-width: 414px) {
+  .footer__contacts {
+    max-width: 278px;
+    padding-left: 22px;
+  }
+}

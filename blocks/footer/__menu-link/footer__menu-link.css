@@ -5,3 +5,10 @@
   line-height: 17px;
   color: #242424;
 }
+
+@media (max-width: 414px) {
+  .footer__menu-link {
+    font-size: 18px;
+    padding-left: 22px;
+  }
+}

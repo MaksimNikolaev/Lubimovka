@@ -6,6 +6,6 @@
   margin: 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 414px) {
   .social__subtitle { grid-area: subtitle; }
 }
