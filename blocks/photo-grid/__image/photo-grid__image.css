@@ -1,0 +1,17 @@
+.photo-grid__image {
+  display: block;
+  width: 359px;
+  height: 251px;
+  transition: opacity .5s linear;
+}
+
+.photo-grid__image:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid__image {
+    width: 206px;
+    height: 141px;
+  }
+}
