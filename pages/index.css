@@ -1,3 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/suchilischa/suchilischa.css);
+@import url(../blocks/suchilischa/__annotation/suchilischa__annotation.css);
+@import url(../blocks/suchilischa/__brief/suchilischa__brief.css);
+@import url(../blocks/suchilischa/__date/suchilischa__date.css);
+@import url(../blocks/suchilischa/__descriprion/uchilischa__descriprion.css);
+@import url(../blocks/suchilischa/__main/suchilischa__main.css);
+@import url(../blocks/suchilischa/__photo/suchilischa__photo.css);
+@import url(../blocks/suchilischa/__tickets-link/suchilischa__tickets-link.css);
+@import url(../blocks/suchilischa/__tickets-link-paragraph/suchilischa__tickets-link-paragraph.css);
+@import url(../blocks/suchilischa/__title/suchilischa__title.css);
+
