@@ -1,0 +1,20 @@
+.header__nav {
+  display: flex;
+  justify-content: end;
+
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 72px;
+    right: 0;
+    background-color: #ecebe8;
+    padding: 0 20px;
+    border-left: 1px solid #242424;
+    border-bottom: 1px solid #242424;
+  }
+}
