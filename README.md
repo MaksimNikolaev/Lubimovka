@@ -28,4 +28,4 @@
 
 ## Ссылка на проект
 
-_добавиться позже_
+- Ссылка на gh pages(https://maksimnikolaev.github.io/Lubimovka/index.html)
