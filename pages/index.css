@@ -5,6 +5,7 @@
 @import url(../blocks/video/__info/video__info.css);
 @import url(../blocks/video/__duration/video__duration.css);
 @import url(../blocks/video/__text/video__text.css);
+@import url(../blocks/video/__text/_place/video__text_place_wrapper.css);
 @import url(../blocks/video/__people-name/video__people-name.css);
 @import url(../blocks/video/__wrapper/video__wrapper.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
