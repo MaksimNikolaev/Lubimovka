@@ -28,4 +28,4 @@
 
 ## Ссылка на проект
 
-- Ссылка на gh pages(https://maksimnikolaev.github.io/Lubimovka/index.html)
+- [Ссылка на gh pages](https://maksimnikolaev.github.io/Lubimovka/index.html)
