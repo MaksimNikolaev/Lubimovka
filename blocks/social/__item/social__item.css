@@ -10,7 +10,3 @@
 .social__item:last-child {
   margin-right: 0;
 }
-
-.social__item:hover {
-  background-color: black;
-}

@@ -1,0 +1,17 @@
+.button-swipe-right {
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+.button-swipe-right:hover {
+  cursor: pointer;
+  background-position: left;
+  color: aliceblue;
+  fill: aliceblue;
+}
+
+.button-swipe-right:active {
+  transform: scale(1.2);
+}
