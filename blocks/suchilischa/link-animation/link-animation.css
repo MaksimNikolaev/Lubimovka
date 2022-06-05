@@ -1,8 +1,0 @@
-.link-animation {
-    transition: opacity .5s ease, transform .5s linear;
-  }
-
-  .link-animation:hover {
-    opacity: 80%;
-    transform: scale(105%);
-  }
