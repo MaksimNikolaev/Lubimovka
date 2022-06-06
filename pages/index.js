@@ -19,3 +19,9 @@ PhotoGridList.addEventListener("click", (evt) => {
   openPopup();
 });
 PopupPhoto.addEventListener("click", () => closePopup());
+
+document.addEventListener("keydown", (evt) => {
+  if (evt.key === "Escape") {
+    closePopup();
+  }
+});
