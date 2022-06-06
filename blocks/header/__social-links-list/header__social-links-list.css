@@ -1,0 +1,29 @@
+.header__social-links-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0 23px 10px 23px;
+  gap: 16px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__social-links-list {
+    gap: 10px;
+    padding: 0 20px 10px 20px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header__social-links-list {
+    gap: 5px;
+    padding: 0 6px 10px 6px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__social-links-list {
+    padding: 0 0 10px 0;
+    gap: 7px;
+    flex-wrap: wrap;
+  }
+}

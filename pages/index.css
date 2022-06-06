@@ -1,5 +1,10 @@
+/*-----Основные стили страницы------*/
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/button-swipe-left/button-swipe-left.css);
+/*----------------------------------*/
+
+/*----------Секция suchilischa---------*/
 @import url(../blocks/content/content.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/suchilischa/suchilischa.css);
@@ -12,4 +17,33 @@
 @import url(../blocks/suchilischa/__tickets-link/suchilischa__tickets-link.css);
 @import url(../blocks/suchilischa/__tickets-link-paragraph/suchilischa__tickets-link-paragraph.css);
 @import url(../blocks/suchilischa/__title/suchilischa__title.css);
+/*--------------------------------------*/
 
+/*------------Секция Header-------------*/
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__back-button-arrow/header__back-button-arrow.css);
+@import url(../blocks/header/__back-button/header__back-button.css);
+@import url(../blocks/header/__back-button/_position/header__back-button_position_top.css);
+@import url(../blocks/header/__back-button/_position/header__back-button_position_bottom.css);
+@import url(../blocks/header/__burger-menu/header__burger-menu.css);
+@import url(../blocks/header/__logo-container/header__logo-container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__site-nav/header__site-nav.css);
+@import url(../blocks/header/__menu-container/header__menu-container.css);
+@import url(../blocks/header/__site-nav-item/header__site-nav-item.css);
+@import url(../blocks/header/__site-nav-link/header__site-nav-link.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__site-nav-list/header__site-nav-list.css);
+@import url(../blocks/header/__social-link-item/header__social-link-item.css);
+@import url(../blocks/header/__social-link/header__social-link.css);
+@import url(../blocks/header/__social-links-list/header__social-links-list.css);
+@import url(../blocks/header/__support-container/header__support-container.css);
+@import url(../blocks/header/__support-link/header__support-link.css);
+@import url(../blocks/header/__support-plus/header__support-plus.css);
+@import url(../blocks/header/__support-text/header__support-text.css);
+@import url(../blocks/header/__social-nav/header__social-nav.css);
+@import url(../blocks/fade/fade.css);
+@import url(../blocks/header/__nav/_active/header__nav_active.css);
+@import url(../blocks/header/__burger-menu/_active/header__burger-menu_active.css);
+/*--------------------------------------*/
