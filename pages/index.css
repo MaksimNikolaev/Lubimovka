@@ -1,5 +1,25 @@
+/*-----Основные стили страницы------*/
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/button-swipe-left/button-swipe-left.css);
+/*----------------------------------*/
+
+/*----------Секция suchilischa---------*/
+@import url(../blocks/content/content.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/suchilischa/suchilischa.css);
+@import url(../blocks/suchilischa/__annotation/suchilischa__annotation.css);
+@import url(../blocks/suchilischa/__brief/suchilischa__brief.css);
+@import url(../blocks/suchilischa/__date/suchilischa__date.css);
+@import url(../blocks/suchilischa/__descriprion/suchilischa__descriprion.css);
+@import url(../blocks/suchilischa/__main/suchilischa__main.css);
+@import url(../blocks/suchilischa/__photo/suchilischa__photo.css);
+@import url(../blocks/suchilischa/__tickets-link/suchilischa__tickets-link.css);
+@import url(../blocks/suchilischa/__tickets-link-paragraph/suchilischa__tickets-link-paragraph.css);
+@import url(../blocks/suchilischa/__title/suchilischa__title.css);
+/*--------------------------------------*/
+
+/*------------Секция Header-------------*/
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__back-button-arrow/header__back-button-arrow.css);
@@ -25,5 +45,5 @@
 @import url(../blocks/header/__social-nav/header__social-nav.css);
 @import url(../blocks/fade/fade.css);
 @import url(../blocks/header/__nav/_active/header__nav_active.css);
-@import url(../blocks/button-swipe-left/button-swipe-left.css);
 @import url(../blocks/header/__burger-menu/_active/header__burger-menu_active.css);
+/*--------------------------------------*/

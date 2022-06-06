@@ -1,0 +1,25 @@
+.suchilischa__tickets-link {
+    margin: 0;
+    padding: 13px 17px;
+    font-family: "FormularLight", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.375;
+    color: #242424;
+    text-decoration: none;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 240px;
+    min-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 700px){
+    .suchilischa__tickets-link {
+      align-self: center;
+    }
+  }
