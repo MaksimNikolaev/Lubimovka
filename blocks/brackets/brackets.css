@@ -1,5 +1,5 @@
 .brackets:before {
-  content: url(../../../images/ellipse-left.svg);
+  content: url(../../images/ellipse-left.svg);
   position: absolute;
   left: -10px;
   opacity: 0;
@@ -11,7 +11,7 @@
 }
 
 .brackets:after {
-  content: url(../../../images/ellipse-right.svg);
+  content: url(../../images/ellipse-right.svg);
   position: absolute;
   right: -10px;
   opacity: 0;
