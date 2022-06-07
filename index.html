@@ -9,9 +9,140 @@
 </head>
 
 <body class="page">
-  <header></header>
+  <header class="header">
+      <div class="header__menu-container">
+        <div class="header__logo-container">
+          <img
+            src="./images/logo.svg"
+            alt="Логотип Любимовки - сердечко"
+            class="header__logo"
+          />
+          <button
+            type="button"
+            class="header__back-button button-swipe-left header__back-button_position_top"
+          >
+            проекты
+            <svg
+              width="21"
+              height="13"
+              viewBox="0 0 21 13"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.7232e-08 6.52344L0.724826 5.79861L6.52344 -2.21465e-08L7.22631 0.702867L1.90563 6.02354L21 6.02354L21 7.02354L1.94976 7.02354L7.20139 12.2752L6.47656 13L0.702867 7.22631L7.7232e-08 6.52344Z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="header__nav">
+          <nav class="header__site-nav">
+            <ul class="header__site-nav-list">
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">Афиша</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">Библиотека</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">Проекты</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">История</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">Блог</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">Новости</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade"
+                  >О&nbsp;Фестивале</a
+                >
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="header__social-nav">
+            <ul class="header__social-links-list">
+              <li class="header__social-link-item">
+                <a href="#" class="header__social-link fade">fb</a>
+              </li>
+              <li class="header__social-link-item">
+                <a href="#" class="header__social-link fade">inst</a>
+              </li>
+              <li class="header__social-link-item">
+                <a href="#" class="header__social-link fade">ytube</a>
+              </li>
+              <li class="header__social-link-item">
+                <a href="#" class="header__social-link fade">tlgrm</a>
+              </li>
+              <li class="header__social-link-item">
+                <a href="#" class="header__social-link fade">vk</a>
+              </li>
+            </ul>
+            <div class="header__support-container">
+              <a href="#" class="header__support-link fade">
+                <img
+                  src="./images/plus.svg"
+                  alt="+"
+                  class="header__support-plus"
+                />
+                <p class="header__support-text">поддержать</p>
+              </a>
+            </div>
+          </nav>
+        </div>
+        <button type="button" class="header__burger-menu fade"></button>
+      </div>
+      <button
+        type="button"
+        class="header__back-button button-swipe-left header__back-button_position_bottom"
+      >
+        проекты
+        <svg
+          width="21"
+          height="13"
+          viewBox="0 0 21 13"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M7.7232e-08 6.52344L0.724826 5.79861L6.52344 -2.21465e-08L7.22631 0.702867L1.90563 6.02354L21 6.02354L21 7.02354L1.94976 7.02354L7.20139 12.2752L6.47656 13L0.702867 7.22631L7.7232e-08 6.52344Z"
+          />
+        </svg>
+      </button>
+    </header>
+  <main class="content">    
+    <section class="suchilischa">
+      <div class="suchilischa__annotation">
+        <h2 class="suchilischa__title">С_училища</h2>
+        <p class="suchilischa__brief">Пьеса о демоническом 
+          обаянии студентки ПТУ и ее роковой роли в жизни 
+          преподавателя философии.
+        </p>
+        <h3 class="suchilischa__date">12 мая 20:00</h3>
+        <a href="https://lubimovka.ru/" target="blank" class="suchilischa__tickets-link button-swipe-right">
+          <p class="suchilischa__tickets-link-paragraph">билеты</p> 
+          <p class="suchilischa__tickets-link-paragraph">&rarr;</p>
+        </a>
+      </div>
+      <div class="suchilischa__main">
+        <img src="./images/suchilischa/suchilischa_photo.png" 
+        alt="Девушка на сцене в вуали на темном размытом фоне." class="suchilischa__photo">
+        <p class="suchilischa__descriprion">Семён Серзин сделал читку этой пьесы в рамках 
+          основной программы Любимовки-2017, Варочный Цех предоставил грант на постановку, 
+          а Московский драматический театр имени А.С. Пушкина принял спектакль в репертуар.
+        </p>
+      </div>
+    </section>
 
-  <section class="project"></section>
+    <section class="project"></section>
 
   <section class="photo-grid">
     <h2 class="photo-grid__title">Заголовок блока с&nbsp;фотографиями</h2>
@@ -35,17 +166,16 @@
     </ul>
   </section>
 
-  <section class="review"></section>
+    <section class="review"></section>
 
-  <section class="feedback"></section>
+    <section class="feedback"></section>
 
   <section class="social"></section>
-
+  </main>
   <footer></footer>
   <div class="popup-photo">
     <div class="popup-photo__container"><img class="popup-photo__item" src="#" alt="Театр"></div>
   </div>
   <script src="./pages/index.js"></script>
 </body>
-
 </html>
