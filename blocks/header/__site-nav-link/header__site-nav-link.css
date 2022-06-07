@@ -7,27 +7,3 @@
   color: #242424;
   position: relative;
 }
-
-.header__site-nav-link:before {
-  content: url(../../../images/ellipse-left.svg);
-  position: absolute;
-  left: -10px;
-  opacity: 0;
-  transition: opacity 0.25s linear;
-}
-
-.header__site-nav-link:hover:before {
-  opacity: 0.8;
-}
-
-.header__site-nav-link:after {
-  content: url(../../../images/ellipse-right.svg);
-  position: absolute;
-  right: -10px;
-  opacity: 0;
-  transition: opacity 0.25s linear;
-}
-
-.header__site-nav-link:hover:after {
-  opacity: 0.8;
-}
