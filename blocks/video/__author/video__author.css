@@ -1,0 +1,18 @@
+.video__author {
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  margin: 14px 0 4px;
+}
+
+@media screen and (max-width: 1023px) {
+  .video__author {
+    margin-left: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__author {
+    margin-left: 68px;
+  }
+}

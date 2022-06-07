@@ -2,38 +2,12 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
-/*----------------------------------*/
+/*--------------------------------------*/
 
 /*-----Анимация кнопок и ссылок------*/
 @import url(../blocks/button-swipe-left/button-swipe-left.css);
 @import url(../blocks/fade/fade.css);
 /*----------------------------------*/
-
-/*----------Секция photo-grid---------*/
-@import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__title/photo-grid__title.css);
-@import url(../blocks/photo-grid/__list/photo-grid__list.css);
-@import url(../blocks/photo-grid/__list-item/photo-grid__list-item.css);
-@import url(../blocks/photo-grid/__image/photo-grid__image.css);
-@import url(../blocks/popup-photo/popup-photo.css);
-@import url(../blocks/popup-photo/__container/popup-photo__container.css);
-@import url(../blocks/popup-photo/__item/popup-photo__item.css);
-@import url(../blocks/popup-photo/_opened/popup-photo_opened.css);
-/*----------------------------------*/
-
-/*----------Секция suchilischa---------*/
-@import url(../blocks/content/content.css);
-@import url(../blocks/suchilischa/suchilischa.css);
-@import url(../blocks/suchilischa/__annotation/suchilischa__annotation.css);
-@import url(../blocks/suchilischa/__brief/suchilischa__brief.css);
-@import url(../blocks/suchilischa/__date/suchilischa__date.css);
-@import url(../blocks/suchilischa/__descriprion/suchilischa__descriprion.css);
-@import url(../blocks/suchilischa/__main/suchilischa__main.css);
-@import url(../blocks/suchilischa/__photo/suchilischa__photo.css);
-@import url(../blocks/suchilischa/__tickets-link/suchilischa__tickets-link.css);
-@import url(../blocks/suchilischa/__tickets-link-paragraph/suchilischa__tickets-link-paragraph.css);
-@import url(../blocks/suchilischa/__title/suchilischa__title.css);
-/*--------------------------------------*/
 
 /*------------Секция Header-------------*/
 @import url(../blocks/header/header.css);
@@ -61,3 +35,46 @@
 @import url(../blocks/header/__nav/_active/header__nav_active.css);
 @import url(../blocks/header/__burger-menu/_active/header__burger-menu_active.css);
 /*--------------------------------------*/
+
+
+/*----------Секция suchilischa---------*/
+@import url(../blocks/content/content.css);
+@import url(../blocks/suchilischa/suchilischa.css);
+@import url(../blocks/suchilischa/__annotation/suchilischa__annotation.css);
+@import url(../blocks/suchilischa/__brief/suchilischa__brief.css);
+@import url(../blocks/suchilischa/__date/suchilischa__date.css);
+@import url(../blocks/suchilischa/__descriprion/suchilischa__descriprion.css);
+@import url(../blocks/suchilischa/__main/suchilischa__main.css);
+@import url(../blocks/suchilischa/__photo/suchilischa__photo.css);
+@import url(../blocks/suchilischa/__tickets-link/suchilischa__tickets-link.css);
+@import url(../blocks/suchilischa/__tickets-link-paragraph/suchilischa__tickets-link-paragraph.css);
+@import url(../blocks/suchilischa/__title/suchilischa__title.css);
+/*--------------------------------------*/
+
+/*----------Секция video---------*/
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__info/video__info.css);
+@import url(../blocks/video/__duration/video__duration.css);
+@import url(../blocks/video/__text/video__text.css);
+@import url(../blocks/video/__text/_place/video__text_place_wrapper.css);
+@import url(../blocks/video/__people-name/video__people-name.css);
+@import url(../blocks/video/__wrapper/video__wrapper.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/video/__paragraph/video__paragraph.css);
+@import url(../blocks/video/__links/video__links.css);
+@import url(../blocks/video/__links-title/video__links-title.css);
+@import url(../blocks/video/__link/video__link.css);
+@import url(../blocks/video/__author/video__author.css);
+/*----------------------------------*/
+
+/*----------Секция photo-grid---------*/
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__title/photo-grid__title.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
+@import url(../blocks/photo-grid/__list-item/photo-grid__list-item.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+@import url(../blocks/popup-photo/popup-photo.css);
+@import url(../blocks/popup-photo/__container/popup-photo__container.css);
+@import url(../blocks/popup-photo/__item/popup-photo__item.css);
+@import url(../blocks/popup-photo/_opened/popup-photo_opened.css);
+/*----------------------------------*/
