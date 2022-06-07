@@ -1,0 +1,31 @@
+.photo-grid__title {
+  margin: 0 0 40px 362px;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  max-width: 568px;
+  font-family: 'PPNeueMachina';
+}
+
+@media screen and (max-width: 1439px) {
+  .photo-grid__title {
+    margin: 0 auto 40px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid__title {
+    font-size: 28px;
+    line-height: 114%;
+    max-width: 369px;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .photo-grid__title {
+    text-align: start;
+    margin-left: 24px;
+  }
+}
