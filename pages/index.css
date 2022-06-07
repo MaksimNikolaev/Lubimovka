@@ -6,6 +6,7 @@
 
 /*-----Анимация кнопок и ссылок------*/
 @import url(../blocks/button-swipe-left/button-swipe-left.css);
+@import url(../blocks/button-swipe-right/button-swipe-right.css);
 @import url(../blocks/fade/fade.css);
 /*----------------------------------*/
 
@@ -78,3 +79,40 @@
 @import url(../blocks/popup-photo/__item/popup-photo__item.css);
 @import url(../blocks/popup-photo/_opened/popup-photo_opened.css);
 /*----------------------------------*/
+
+/*-----------Секция Social-------------*/
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__photo-container/social__photo-container.css);
+@import url(../blocks/social/__group/social__group.css);
+@import url(../blocks/social/__photo/social__photo.css);
+@import url(../blocks/social/__list/social__list.css);
+@import url(../blocks/social/__item/social__item.css);
+@import url(../blocks/social/__link/social__link.css);
+@import url(../blocks/social/__svg/social__svg.css);
+@import url(../blocks/social/__title/social__title.css);
+@import url(../blocks/social/__subtitle/social__subtitle.css);
+/*--------------------------------------*/
+
+/*-----------Секция Footer-------------*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/partners/__list/partners__list.css);
+@import url(../blocks/partners/__item/partners__item.css);
+@import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/partners/__img/partners__img.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__area/footer__area.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu-list/footer__menu-list.css);
+@import url(../blocks/footer/__menu-item/footer__menu-item.css);
+@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import url(../blocks/footer/__copyright-group/footer__copyright-group.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__polices/footer__polices.css);
+@import url(../blocks/footer/__polices-link/footer__polices-link.css);
+@import url(../blocks/footer/__design/footer__design.css);
+@import url(../blocks/footer/__develop/footer__develop.css);
+@import url(../blocks/footer/__link/footer__link.css);
+/*--------------------------------------*/

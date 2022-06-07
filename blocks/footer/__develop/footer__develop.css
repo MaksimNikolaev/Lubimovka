@@ -1,0 +1,21 @@
+.footer__develop {
+  grid-area: develop;
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  max-width: 254px;
+}
+
+@media (max-width: 768px) {
+  .footer__develop {
+    justify-self: normal;
+    margin-right: 30px;  
+  }
+}
+
+@media (max-width: 414px) {
+  .footer__develop {
+    margin-right: 0;
+  }
+}

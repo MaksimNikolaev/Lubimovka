@@ -1,0 +1,12 @@
+.footer__logo {
+  width: 93px;
+  height: 80.36px;
+  object-fit: cover;
+  grid-area: Logo;
+}
+
+@media (max-width: 414px) {
+  .footer__logo {
+    padding-left: 22px;
+  }
+}

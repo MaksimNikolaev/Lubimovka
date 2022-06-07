@@ -1,0 +1,10 @@
+.social__photo-container {
+  max-width: 1320px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 414px) {
+  .social__photo-container {
+    padding-bottom: 13px;
+  }  
+}

@@ -1,0 +1,10 @@
+.partners__img {
+  height: 34px;
+  object-fit: cover;
+}
+
+@media (max-width: 414px) {
+  .partners__img {
+    height: 41px;
+  }
+}

@@ -1,0 +1,11 @@
+.footer__menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 414px) {
+  .footer__menu-list {
+    margin-bottom: 53px;
+  }
+}
