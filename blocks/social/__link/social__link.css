@@ -1,32 +1,18 @@
 .social__link {
   text-decoration: none;
+  width: 100%;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   color: #242424;
   display: block;
-  position: absolute;
-}
-
-.social__link::before {
-  content: url('../../../images/arrow.svg');
-  position: relative;
-  top: 3px;
-  left: 0;
-  width: 21px;
-  height: 13px;
-  display: inline-block;
-  transform: rotate(180deg);
-  margin-right: 5px;
-  vertical-align: middle;
+  border:none;
+  padding: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
 }
 
 .social__link:hover {
   color: #ECEBE8;
-}
-
-.social__link:hover::before {
-  content: url('../../../images/arrow-white.svg');
-  display: inline-block;
-
 }
