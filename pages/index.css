@@ -1,12 +1,28 @@
 /*-----Основные стили страницы------*/
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+/*----------------------------------*/
+
+/*-----Анимация кнопок и ссылок------*/
 @import url(../blocks/button-swipe-left/button-swipe-left.css);
+@import url(../blocks/fade/fade.css);
+/*----------------------------------*/
+
+/*----------Секция photo-grid---------*/
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__title/photo-grid__title.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
+@import url(../blocks/photo-grid/__list-item/photo-grid__list-item.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+@import url(../blocks/popup-photo/popup-photo.css);
+@import url(../blocks/popup-photo/__container/popup-photo__container.css);
+@import url(../blocks/popup-photo/__item/popup-photo__item.css);
+@import url(../blocks/popup-photo/_opened/popup-photo_opened.css);
 /*----------------------------------*/
 
 /*----------Секция suchilischa---------*/
 @import url(../blocks/content/content.css);
-@import url(../blocks/page/page.css);
 @import url(../blocks/suchilischa/suchilischa.css);
 @import url(../blocks/suchilischa/__annotation/suchilischa__annotation.css);
 @import url(../blocks/suchilischa/__brief/suchilischa__brief.css);
@@ -20,7 +36,6 @@
 /*--------------------------------------*/
 
 /*------------Секция Header-------------*/
-@import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__back-button-arrow/header__back-button-arrow.css);
 @import url(../blocks/header/__back-button/header__back-button.css);
@@ -43,7 +58,6 @@
 @import url(../blocks/header/__support-plus/header__support-plus.css);
 @import url(../blocks/header/__support-text/header__support-text.css);
 @import url(../blocks/header/__social-nav/header__social-nav.css);
-@import url(../blocks/fade/fade.css);
 @import url(../blocks/header/__nav/_active/header__nav_active.css);
 @import url(../blocks/header/__burger-menu/_active/header__burger-menu_active.css);
 /*--------------------------------------*/
