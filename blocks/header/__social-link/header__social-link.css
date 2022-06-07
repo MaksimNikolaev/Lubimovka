@@ -1,0 +1,19 @@
+.header__social-link {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #242424;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__social-link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__social-link {
+    font-size: 16px;
+  }
+}

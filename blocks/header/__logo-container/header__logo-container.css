@@ -1,0 +1,19 @@
+.header__logo-container {
+  display: flex;
+  align-self: center;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__logo-container {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__logo-container {
+    margin-left: 24px;
+    margin-top: 30px;
+    align-self: flex-start;
+  }
+}
