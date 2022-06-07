@@ -1,0 +1,6 @@
+.review__wrap {
+  max-width: 718px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
