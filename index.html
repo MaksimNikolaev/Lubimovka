@@ -14,8 +14,20 @@
   <section class="photo"></section>
 
   <section class="review">
-    <div class="review__wrap">
-      <h2 class="review__title">Рецензии</h2>
+    <div class="review__wrap slider">
+      <div class="review__top-wrap slider__wrap">
+        <h2 class="review__title slider__title">Рецензии</h2>
+        <ul class="review__dots slider__dots">
+          <li class="review__dots-item slider__dots-item slider__dots-item_active"></li>
+          <li class="review__dots-item slider__dots-item"></li>
+          <li class="review__dots-item slider__dots-item"></li>
+          <li class="review__dots-item slider__dots-item"></li>
+        </ul>
+        <div class="review__buttons slider__buttons">
+          <button class="review__button slider__button slider__button_type_prev" type="button" aria-label="Предыдущий"></button>
+          <button class="review__button slider__button slider__button_type_next" type="button" aria-label="Следующий"></button>
+        </div>
+      </div>
       <ul class="review__list">
         <li class="review__item">
           <blockquote class="review__blockquote">
