@@ -1,0 +1,5 @@
+.review__item_active {
+  position: static;
+  max-height: 782px;
+  opacity: 1;
+}

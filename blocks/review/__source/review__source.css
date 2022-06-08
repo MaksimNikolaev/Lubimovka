@@ -1,7 +1,6 @@
 .review__source {
-  min-height: 40px;
-  background-image: url(../../../images/review/TheNewYorkTimes.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  max-height: 40px;
+  align-self: flex-start;
+  object-fit: contain;
   margin: 0 0 47px;
 }

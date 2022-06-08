@@ -1,0 +1,8 @@
+.review__item {
+  position: absolute;
+  width: 718px;
+  max-height: 530px;
+  top: 0;
+  right: -750px;
+  opacity: 0.4;
+}
