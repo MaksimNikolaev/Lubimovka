@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/review/review.css);
 @import url(../blocks/review/__wrap/review__wrap.css);
 @import url(../blocks/review/__title/review__title.css);
 @import url(../blocks/review/__list/review__list.css);

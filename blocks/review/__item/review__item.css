@@ -7,3 +7,9 @@
   right: -750px;
   opacity: 0.4;
 }
+
+@media screen and (max-width: 800px) {
+  .review__item {
+    display: none;
+  }
+}

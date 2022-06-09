@@ -5,3 +5,11 @@
   padding: 0;
   list-style-type: none;
 }
+
+@media screen and (max-width: 800px) {
+  .slider__dots {
+    order: 2;
+    z-index: 1;
+    margin-left: 5px;
+  }
+}

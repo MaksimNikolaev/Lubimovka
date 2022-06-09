@@ -3,3 +3,11 @@
   max-height: 782px;
   opacity: 1;
 }
+
+@media screen and (max-width: 800px) {
+  .review__item_active {
+    display: flex;
+    width: auto;
+    max-height: 1044px;
+  }
+}
