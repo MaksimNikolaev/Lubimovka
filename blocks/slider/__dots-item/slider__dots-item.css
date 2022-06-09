@@ -9,3 +9,6 @@
   margin-right: 0;
 }
 
+.slider__dots-item:hover {
+  opacity: 0.6;
+}

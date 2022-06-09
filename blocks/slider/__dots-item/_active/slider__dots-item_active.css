@@ -1,3 +1,7 @@
 .slider__dots-item_active {
   background: no-repeat center url(../../../../images/slider/dot-active.svg);
 }
+
+.slider__dots-item_active:hover {
+  opacity: 1;
+}
