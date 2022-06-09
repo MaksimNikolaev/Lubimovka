@@ -1,4 +1,5 @@
 .review__item {
+  display: flex;
   position: absolute;
   width: 718px;
   max-height: 530px;
