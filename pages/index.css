@@ -6,6 +6,7 @@
 @import url(../blocks/review/__list/review__list.css);
 @import url(../blocks/review/__item/review__item.css);
 @import url(../blocks/review/__item/_active/review__item_active.css);
+@import url(../blocks/review/__item/_prev/review__item_prev.css);
 @import url(../blocks/review/__blockquote/review__blockquote.css);
 @import url(../blocks/review/__source/review__source.css);
 @import url(../blocks/review/__text/review__text.css);

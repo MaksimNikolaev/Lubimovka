@@ -5,20 +5,30 @@ const nextButton = document.querySelector('.slider__button_type_next');
 let slideIndex = 1;
 
 function showSlides(n) {
+  const currentSlide = slides[n-1];
+  const nextSlide = slides[n];
+  const prevSlide = slides[n-2];
+  const activeDot = dots[n-1];
+
   Array.from(slides).forEach((item) => {
     item.classList.remove('review__item_active');
+    item.classList.remove('review__item_prev');
     item.style.visibility = 'hidden';
   });
   Array.from(dots).forEach((item) => {
     item.classList.remove('slider__dots-item_active');
   });
 
-  slides[n-1].classList.add('review__item_active');
-  slides[n-1].style.visibility = 'visible';
+  currentSlide.classList.add('review__item_active');
+  currentSlide.style.visibility = 'visible';
   if (n < slides.length) {
-    slides[n].style.visibility = 'visible';
+    nextSlide.style.visibility = 'visible';
   }
-  dots[n-1].classList.add('slider__dots-item_active');
+  if (n > 1) {
+    prevSlide.style.visibility = 'visible';
+    prevSlide.classList.add('review__item_prev');
+  }
+  activeDot.classList.add('slider__dots-item_active');
 }
 
 function plusSlide() {
