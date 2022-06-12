@@ -1,0 +1,15 @@
+.review__item {
+  display: flex;
+  position: absolute;
+  width: 718px;
+  max-height: 530px;
+  top: 0;
+  right: -750px;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 800px) {
+  .review__item {
+    display: none;
+  }
+}

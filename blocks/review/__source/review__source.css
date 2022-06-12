@@ -1,0 +1,12 @@
+.review__source {
+  max-height: 40px;
+  align-self: flex-start;
+  object-fit: contain;
+  margin: 0 0 47px;
+}
+
+@media screen and (max-width: 800px) {
+  .review__source {
+    margin-bottom: 35px;
+  }
+}

@@ -1,0 +1,13 @@
+.review__blockquote {
+  margin: 0;
+  padding: 55px 88px 72px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .review__blockquote {
+    padding: 77px 27px 72px 26px;
+  }
+}
