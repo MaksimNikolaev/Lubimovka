@@ -1,0 +1,29 @@
+.header__site-nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0 37px 5px 40px;
+  gap: 44px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__site-nav-list {
+    gap: 32px;
+    padding: 0 24px 5px 24px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header__site-nav-list {
+    gap: 20px;
+    padding: 0 10px 5px 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__site-nav-list {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 0 10px 0;
+  }
+}

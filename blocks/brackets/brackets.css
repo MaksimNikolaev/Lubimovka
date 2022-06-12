@@ -1,0 +1,23 @@
+.brackets:before {
+  content: url(../../images/ellipse-left.svg);
+  position: absolute;
+  left: -10px;
+  opacity: 0;
+  transition: opacity 0.25s linear;
+}
+
+.brackets:hover:before {
+  opacity: 0.8;
+}
+
+.brackets:after {
+  content: url(../../images/ellipse-right.svg);
+  position: absolute;
+  right: -10px;
+  opacity: 0;
+  transition: opacity 0.25s linear;
+}
+
+.brackets:hover:after {
+  opacity: 0.8;
+}

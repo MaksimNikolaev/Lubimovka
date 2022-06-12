@@ -1,0 +1,18 @@
+.footer__partners {
+  display: flex;  
+  grid-area: Partners;
+}
+
+@media (max-width: 585px) {
+  .footer__partners {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 414px) {
+  .footer__partners {
+    
+    padding: 14px 23px 0;
+  }
+}

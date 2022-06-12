@@ -1,0 +1,30 @@
+.video__link {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 138%;
+  color: inherit;
+  border-top: 1px solid #242424;
+  background-image: url(../../../images/arrow-45.svg);
+  background-repeat: no-repeat;
+  background-position: right 16px bottom 50%;
+  height: 56px;
+  box-sizing: border-box;
+  padding: 15px 22px 18px 16px;
+  transition: background-color, background-image .5s linear;
+}
+
+.video__link:hover {
+  background-color: #242424;
+  color: #FFFFFF;
+  background-image: url(../../../images/arrow-45-hover.svg);
+}
+
+.video__link:last-of-type {
+  background-image: url(../../../images/arrow-down.svg);
+  background-position: right 22px bottom 50%;
+}
+
+.video__link:last-of-type:hover {
+  background-image: url(../../../images/arrow-down-hover.svg)
+}

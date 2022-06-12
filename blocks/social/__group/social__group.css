@@ -1,0 +1,23 @@
+.social__group {
+  display: grid;
+  max-width: 666px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .social__group {
+    padding: 0 25px;   
+  }
+}
+
+@media (max-width: 414px) {
+  .social__group {
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "title"
+      "social"
+      "subtitle"; 
+  }  
+}
