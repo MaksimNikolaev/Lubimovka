@@ -1,12 +1,3 @@
 .review__list {
   position: relative;
-  margin: 35px 0 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-@media screen and (max-width: 800px) {
-  .review__list {
-    margin-top: -40px;
-  }
 }

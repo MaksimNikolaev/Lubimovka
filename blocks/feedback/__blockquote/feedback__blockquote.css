@@ -1,0 +1,14 @@
+.feedback__blockquote {
+  margin: 0;
+  padding: 33px 30px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .feedback__blockquote {
+    padding: 72px 28px 100px 27px;
+  }
+}
