@@ -105,6 +105,7 @@
 @import url(../blocks/review/__source/review__source.css);
 @import url(../blocks/review/__text/review__text.css);
 @import url(../blocks/review/__link/review__link.css);
+@import url(../blocks/review/__link-arrow/review__link-arrow.css);
 /*--------------------------------------*/
 
 /*----------Секция feedback---------*/
