@@ -1,7 +1,5 @@
 .feedback__item {
   display: flex;
-  width: 420px;
-  outline: 1px solid red;
 }
 
 @media screen and (max-width: 800px) {

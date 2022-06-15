@@ -1,4 +1,8 @@
 .feedback__list {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  column-gap: 30px;
+  grid-template-rows: auto;
+  grid-auto-rows: 0;
+  overflow: hidden;
 }
