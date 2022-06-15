@@ -2,3 +2,9 @@
   max-width: 718px;
   margin: 0 auto 54px;
 }
+
+@media screen and (max-width: 800px) {
+  .feedback__top-wrap {
+    margin-bottom: 0;
+  }
+}

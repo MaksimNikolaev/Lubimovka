@@ -2,3 +2,9 @@
   overflow: hidden;
   margin-bottom: 112px;
 }
+
+@media screen and (max-width: 800px) {
+  .review {
+    margin-bottom: 76px;
+  }
+}

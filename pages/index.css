@@ -113,6 +113,7 @@
 @import url(../blocks/feedback/__top-wrap/feedback__top-wrap.css);
 @import url(../blocks/feedback/__list/feedback__list.css);
 @import url(../blocks/feedback/__item/feedback__item.css);
+@import url(../blocks/feedback/__item/_active/feedback__item_active.css);
 @import url(../blocks/feedback/__blockquote/feedback__blockquote.css);
 @import url(../blocks/feedback/__text/feedback__text.css);
 @import url(../blocks/feedback/__author/feedback__author.css);
