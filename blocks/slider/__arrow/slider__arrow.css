@@ -1,0 +1,5 @@
+.slider__arrow {
+  fill: #242424;
+  transition-property: fill;
+  transition-delay: 0.3s;
+}

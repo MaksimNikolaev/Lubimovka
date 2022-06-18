@@ -81,20 +81,6 @@
 @import url(../blocks/popup-photo/_opened/popup-photo_opened.css);
 /*----------------------------------*/
 
-/*----------Секция review---------*/
-@import url(../blocks/review/review.css);
-@import url(../blocks/review/__wrap/review__wrap.css);
-@import url(../blocks/review/__title/review__title.css);
-@import url(../blocks/review/__list/review__list.css);
-@import url(../blocks/review/__item/review__item.css);
-@import url(../blocks/review/__item/_active/review__item_active.css);
-@import url(../blocks/review/__item/_prev/review__item_prev.css);
-@import url(../blocks/review/__blockquote/review__blockquote.css);
-@import url(../blocks/review/__source/review__source.css);
-@import url(../blocks/review/__text/review__text.css);
-@import url(../blocks/review/__link/review__link.css);
-/*--------------------------------------*/
-
 /*----------Блок slider---------*/
 @import url(../blocks/slider/__wrap/slider__wrap.css);
 @import url(../blocks/slider/__title/slider__title.css);
@@ -103,8 +89,37 @@
 @import url(../blocks/slider/__dots-item/_active/slider__dots-item_active.css);
 @import url(../blocks/slider/__buttons/slider__buttons.css);
 @import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__arrow/slider__arrow.css);
+@import url(../blocks/slider/__left-arc/slider__left-arc.css);
+@import url(../blocks/slider/__right-arc/slider__right-arc.css);
 @import url(../blocks/slider/__button/_type/slider__button_type_prev.css);
-@import url(../blocks/slider/__button/_type/slider__button_type_next.css);
+@import url(../blocks/slider/__list/slider__list.css);
+/*--------------------------------------*/
+
+/*----------Секция review---------*/
+@import url(../blocks/review/review.css);
+@import url(../blocks/review/__wrap/review__wrap.css);
+@import url(../blocks/review/__list/review__list.css);
+@import url(../blocks/review/__item/review__item.css);
+@import url(../blocks/review/__item/_active/review__item_active.css);
+@import url(../blocks/review/__item/_prev/review__item_prev.css);
+@import url(../blocks/review/__blockquote/review__blockquote.css);
+@import url(../blocks/review/__source/review__source.css);
+@import url(../blocks/review/__text/review__text.css);
+@import url(../blocks/review/__link/review__link.css);
+@import url(../blocks/review/__link-arrow/review__link-arrow.css);
+/*--------------------------------------*/
+
+/*----------Секция feedback---------*/
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__wrap/feedback__wrap.css);
+@import url(../blocks/feedback/__top-wrap/feedback__top-wrap.css);
+@import url(../blocks/feedback/__list/feedback__list.css);
+@import url(../blocks/feedback/__item/feedback__item.css);
+@import url(../blocks/feedback/__item/_active/feedback__item_active.css);
+@import url(../blocks/feedback/__blockquote/feedback__blockquote.css);
+@import url(../blocks/feedback/__text/feedback__text.css);
+@import url(../blocks/feedback/__author/feedback__author.css);
 /*--------------------------------------*/
 
 /*-----------Секция Social-------------*/

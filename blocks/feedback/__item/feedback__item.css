@@ -1,0 +1,9 @@
+.feedback__item {
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .feedback__item {
+    display: none;
+  }
+}

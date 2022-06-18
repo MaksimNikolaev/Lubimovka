@@ -10,5 +10,6 @@
 }
 
 .slider__dots-item:hover {
-  opacity: 0.6;
+  background: no-repeat center url(../../../../images/slider/dot-active.svg);
+  cursor: pointer;
 }
