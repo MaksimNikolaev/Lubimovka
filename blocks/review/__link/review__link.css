@@ -1,0 +1,18 @@
+.review__link {
+  position: relative;
+  align-self: flex-start;
+  padding: 7px 10px 9px 29px;
+  font-family: 'FormularLight', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  color: #242424;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-left: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+}
+
+.review__link:hover {
+  cursor: pointer;
+}

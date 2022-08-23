@@ -1,25 +1,465 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="./pages/index.css">
   <title>Любимовка</title>
 </head>
+
 <body class="page">
-  <header></header>
+  <header class="header">
+      <div class="header__menu-container">
+        <div class="header__logo-container">
+          <img
+            src="./images/logo.svg"
+            alt="Логотип Любимовки - сердечко"
+            class="header__logo"
+          />
+          <button
+            type="button"
+            class="header__back-button button-swipe-left header__back-button_position_top"
+          >
+            проекты
+            <svg
+              width="21"
+              height="13"
+              viewBox="0 0 21 13"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.7232e-08 6.52344L0.724826 5.79861L6.52344 -2.21465e-08L7.22631 0.702867L1.90563 6.02354L21 6.02354L21 7.02354L1.94976 7.02354L7.20139 12.2752L6.47656 13L0.702867 7.22631L7.7232e-08 6.52344Z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="header__nav">
+          <nav class="header__site-nav">
+            <ul class="header__site-nav-list">
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade brackets">Афиша</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade brackets">Библиотека</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade brackets">Проекты</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade brackets">История</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade brackets">Блог</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade brackets">Новости</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade brackets"
+                  >О&nbsp;Фестивале</a
+                >
+              </li>
+              <li class="header__site-nav-item">
+                <a href="#" class="header__site-nav-link fade brackets">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="header__social-nav">
+            <ul class="header__social-links-list">
+              <li class="header__social-link-item">
+                <a href="#" class="header__social-link fade">fb</a>
+              </li>
+              <li class="header__social-link-item">
+                <a href="#" class="header__social-link fade">inst</a>
+              </li>
+              <li class="header__social-link-item">
+                <a href="#" class="header__social-link fade">ytube</a>
+              </li>
+              <li class="header__social-link-item">
+                <a href="#" class="header__social-link fade">tlgrm</a>
+              </li>
+              <li class="header__social-link-item">
+                <a href="#" class="header__social-link fade">vk</a>
+              </li>
+            </ul>
+            <div class="header__support-container">
+              <a href="#" class="header__support-link fade">
+                <img
+                  src="./images/plus.svg"
+                  alt="+"
+                  class="header__support-plus"
+                />
+                <p class="header__support-text">поддержать</p>
+              </a>
+            </div>
+          </nav>
+        </div>
+        <button type="button" class="header__burger-menu fade"></button>
+      </div>
+      <button
+        type="button"
+        class="header__back-button button-swipe-left header__back-button_position_bottom"
+      >
+        проекты
+        <svg
+          width="21"
+          height="13"
+          viewBox="0 0 21 13"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M7.7232e-08 6.52344L0.724826 5.79861L6.52344 -2.21465e-08L7.22631 0.702867L1.90563 6.02354L21 6.02354L21 7.02354L1.94976 7.02354L7.20139 12.2752L6.47656 13L0.702867 7.22631L7.7232e-08 6.52344Z"
+          />
+        </svg>
+      </button>
+  </header>
 
-  <section class="project"></section>
+  <main class="content">
+    <section class="suchilischa">
+      <div class="suchilischa__annotation">
+        <h2 class="suchilischa__title">С_училища</h2>
+        <p class="suchilischa__brief">Пьеса о демоническом
+          обаянии студентки ПТУ и ее роковой роли в жизни
+          преподавателя философии.
+        </p>
+        <h3 class="suchilischa__date">12 мая 20:00</h3>
+        <a href="https://lubimovka.ru/" target="blank" class="suchilischa__tickets-link button-swipe-right">
+          <p class="suchilischa__tickets-link-paragraph">билеты</p>
+          <p class="suchilischa__tickets-link-paragraph">&rarr;</p>
+        </a>
+      </div>
+      <div class="suchilischa__main">
+        <img src="./images/suchilischa/suchilischa_photo.png"
+        alt="Девушка на сцене в вуали на темном размытом фоне." class="suchilischa__photo">
+        <p class="suchilischa__descriprion">Семён Серзин сделал читку этой пьесы в рамках
+          основной программы Любимовки-2017, Варочный Цех предоставил грант на постановку,
+          а Московский драматический театр имени А.С. Пушкина принял спектакль в репертуар.
+        </p>
+      </div>
+    </section>
 
-  <section class="photo"></section>
+    <section class="video">
+      <div class="video__info">
+        <p class="video__duration">1 ч. 15 мин. &vert; 18+</p>
+        <h3 class="video__text">Драматург</h3>
+        <p class="video__people-name">Роберт Аскинс</p>
+        <h3 class="video__text">Перевод</h3>
+        <p class="video__people-name">Оксана Алёшина</p>
+        <h3 class="video__text">Адаптация текста</h3>
+        <p class="video__people-name">Валерий Печейкин</p>
+        <h3 class="video__text">Режиссёр</h3>
+        <p class="video__people-name">Юрий Муравицкий</p>
+        <h3 class="video__text">Актёры</h3>
+        <p class="video__people-name">Фёдор Кокорев, Коля Ноекёльн, Ксения Чекина, Александр Пронькин, Владимир Морозов,
+          Светлана Маршанкина</p>
+      </div>
+      <div class="video__wrapper">
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/juq_3oRQ6yc" title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <div>
+          <p class="video__paragraph">Пьеса «Длань Господня» (Hand to God) — лауреат американской театральной премии OBIE
+            (Off-Broadway Theater Awards), номинант ежегодно присуждаемой премии TONY (Theatre Of New York), театрального
+            аналога «Оскара», и номинант на Британскую премию Лоуренса Оливье в качестве «Лучшей Новой Комедии». Она была
+            поставлена в бродвейских театрах и в лондонском Вест-Энде.</p>
+          <p class="video__paragraph">Этот спектакль – результат коллаборации фестиваля драматургии «Любимовка», который
+            запустил проект по выпуску
+            собственных спектаклей «Любимовка.Продакшн», Театра 18+ и Театра.doc. Исполнители – выпускники актерской
+            лаборатории Юрия Муравицкого Московской Школы Нового Кино.</p>
+          <p class="video__paragraph">Режиссёр спектакля Юрий Муравицкий – лауреат Национальной театральной премии
+            «Золотая
+            маска», лауреат премий Herald Angel Award и Total Theatre Award в номинации Innovation, Experimentation &
+            Playing with Form на Edinburgh Festival Fringe: «В этой пьесе меня задевает её смелость и свобода. И то, что
+            она
+            написана смешно. Мне сейчас интересны комедии. В январе я выпустил «Lё Тартюф. Комедия» в театре на Таганке —
+            тоже комедию и тоже в известном смысле антиклерикальную. У меня есть стойкое ощущение что всему, что сейчас
+            происходит в нашей стране и в мире, мы можем противопоставить только смех. Иногда горький смех, иногда злой.
+            Сейчас в воздухе столько ненависти, что нам всем полезно больше смеяться. И над собой в том числе. «Длань
+            Господня» — это чёрная комедия. Помимо прочего, она показывает к чему приводит навязывание и насильственное
+            насаждение религии».</p>
+          <p class="video__paragraph">Пьеса была успешно представлена в России в формате читки в 2016 году рамках
+            лаборатории LARK+Любимовка на сцене Центра им. Мейерхольда.</p>
+        </div>
+        <div class="video__links">
+          <p class="video__links-title">С_училища</p>
+          <a class="video__link" href="#" target="blank">СМОТРЕТЬ ЧИТКУ</a>
+          <a class="video__link" href="#" target="blank">СКАЧАТЬ ПЬЕСУ</a>
+        </div>
+        <p class="video__author">Андрей Иванов</p>
+        <p class="video__text video__text_place_wrapper">Санкт-Петербург</p>
+        <p class="video__text video__text_place_wrapper">2020</p>
+      </div>
+    </section>
 
-  <section class="review"></section>
+    <section class="photo-grid">
+      <h2 class="photo-grid__title">Заголовок блока с&nbsp;фотографиями</h2>
+      <ul class="photo-grid__list">
+        <li class="photo-grid__list-item"><img src="./images/photo/photo-grid-1.jpg" alt="Театр"
+            class="photo-grid__image"></li>
+        <li class="photo-grid__list-item"><img src="./images/photo/photo-grid-2.jpg" alt="Театр"
+            class="photo-grid__image"></li>
+        <li class="photo-grid__list-item"><img src="./images/photo/photo-grid-3.jpg" alt="Театр"
+            class="photo-grid__image"></li>
+        <li class="photo-grid__list-item"><img src="./images/photo/photo-grid-4.jpg" alt="Театр"
+            class="photo-grid__image"></li>
+        <li class="photo-grid__list-item"><img src="./images/photo/photo-grid-5.jpg" alt="Театр"
+            class="photo-grid__image"></li>
+        <li class="photo-grid__list-item"><img src="./images/photo/photo-grid-6.jpg" alt="Театр"
+            class="photo-grid__image"></li>
+        <li class="photo-grid__list-item"><img src="./images/photo/photo-grid-7.jpg" alt="Театр"
+            class="photo-grid__image"></li>
+        <li class="photo-grid__list-item"><img src="./images/photo/photo-grid-8.jpg" alt="Театр"
+            class="photo-grid__image"></li>
+      </ul>
+    </section>
 
-  <section class="feedback"></section>
+    <section class="review">
+      <div class="review__wrap slider">
+        <div class="review__top-wrap slider__wrap">
+          <h2 class="review__title slider__title">Рецензии</h2>
+          <ul class="review__dots slider__dots">
+            <li class="review__dots-item slider__dots-item"></li>
+            <li class="review__dots-item slider__dots-item"></li>
+            <li class="review__dots-item slider__dots-item"></li>
+            <li class="review__dots-item slider__dots-item"></li>
+          </ul>
+          <div class="review__buttons slider__buttons">
+            <button class="review__button slider__button slider__button_type_prev" type="button" aria-label="Предыдущий">
+              <svg width="51" height="50" xmlns="http://www.w3.org/2000/svg"><path d="M25 1C11.745 1 1 11.745 1 25s10.745 24 24 24" stroke="#242424"/>
+                <path class="slider__arrow" fill-rule="evenodd" clip-rule="evenodd" d="m15 24.477.725.724L21.523 31l.703-.703-5.32-5.32H36v-1H16.95l5.251-5.252-.724-.725-5.774 5.774-.703.703Z"/></svg>
+              <svg class="slider__left-arc" xmlns="http://www.w3.org/2000/svg"><path d="M25 1C11.745 1 1 11.745 1 25s10.745 24 24 24" stroke="#242424"/></svg>
+            </button>
+            <button class="review__button slider__button slider__button_type_next" type="button" aria-label="Следующий">
+              <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg"><path d="M25 1c13.255 0 24 10.745 24 24S38.255 49 25 49" stroke="#242424"/>
+                <path class="slider__arrow" fill-rule="evenodd" clip-rule="evenodd" d="m35 24.477-.725.724L28.477 31l-.703-.703 5.32-5.32H14v-1h19.05L27.8 18.725l.724-.725 5.774 5.774.703.703Z"/></svg>
+              <svg class="slider__right-arc" xmlns="http://www.w3.org/2000/svg"><path d="M25 1c13.255 0 24 10.745 24 24S38.255 49 25 49" stroke="#242424"/></svg>
+            </button>
+          </div>
+        </div>
+        <ul class="review__list slider__list">
+          <li class="review__item">
+            <blockquote class="review__blockquote">
+              <img class="review__source" src="./images/review/TheNewYorkTimes.png" alt="Логотип Нью-Йорк Таймс">
+              <p class="review__text">
+                «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+                Техасе, где мать главного героя с группой добровольцев готовит кукольное представление.
+                Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в
+                эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой
+                её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала
+                страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор
+                Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по
+                крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о
+                разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные,
+                саморазрушительные, агрессивные — которые притаились в каждом из нас».
+              </p>
+              <a href="#" class="review__link button-swipe-right" target="_blank"><svg class="review__link-arrow" width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9084 5.05887L19.9084 6.08393L19.9084 14.2844L18.9144 14.2844L18.9144 6.75983L5.41259 20.2616L4.70549 19.5545L18.176 6.08393L10.7491 6.08393L10.7491 5.05887L18.9144 5.05887L19.9084 5.05887Z"/>
+                </svg>Читать полностью</a>
+            </blockquote>
+          </li>
+          <li class="review__item">
+            <blockquote class="review__blockquote">
+              <img class="review__source" src="./images/review/sobaka.png" alt="Логотип издания Собака">
+              <p class="review__text">
+                «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+                Техасе, где мать главного героя с группой добровольцев готовит кукольное представление.
+                Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в
+                эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой
+                её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала
+                страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор
+                Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по
+                крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о
+                разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные,
+                саморазрушительные, агрессивные — которые притаились в каждом из нас».
+              </p>
+              <a href="#" class="review__link button-swipe-right" target="_blank"><svg class="review__link-arrow" width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9084 5.05887L19.9084 6.08393L19.9084 14.2844L18.9144 14.2844L18.9144 6.75983L5.41259 20.2616L4.70549 19.5545L18.176 6.08393L10.7491 6.08393L10.7491 5.05887L18.9144 5.05887L19.9084 5.05887Z"/>
+                </svg>Читать полностью</a>
+            </blockquote>
+          </li>
+          <li class="review__item">
+            <blockquote class="review__blockquote">
+              <img class="review__source" src="./images/review/TheNewYorkTimes.png" alt="Логотип Нью-Йорк Таймс">
+              <p class="review__text">
+                Sale liber et vel. Sea esse deserunt ei, no diam ubique euripidis has. Solum vituperata definitiones te vis, vis alia falli doming ea.
+                Oratio accumsan et mea. Mandamus abhorreant deseruisse mea at, mea elit deserunt persequeris at, in putant fuisset honestatis qui. Nec
+                labore cetero theophrastus no, ei vero facer veritus nec. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at.
+                Per cu iracundia splendide. Per in illud petentium iudicabit, integre sententiae pro no. Per cu iracundia splendide. Magna copiosae
+                apeirian ius at. Solum vituperata definitiones te vis, vis alia falli doming ea.
+              </p>
+              <a href="#" class="review__link button-swipe-right" target="_blank"><svg class="review__link-arrow" width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9084 5.05887L19.9084 6.08393L19.9084 14.2844L18.9144 14.2844L18.9144 6.75983L5.41259 20.2616L4.70549 19.5545L18.176 6.08393L10.7491 6.08393L10.7491 5.05887L18.9144 5.05887L19.9084 5.05887Z"/>
+                </svg>Читать полностью</a>
+            </blockquote>
+          </li>
+          <li class="review__item">
+            <blockquote class="review__blockquote">
+              <img class="review__source" src="./images/review/sobaka.png" alt="Логотип издания Собака">
+              <p class="review__text">
+                Oratio accumsan et mea. Sale liber et vel. Eam id posse dictas voluptua, veniam laoreet oportere no mea, quis regione suscipiantur mea an.
+                Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at. An nam debet instructior, commodo mediocrem id cum. Eu cum iuvaret
+                debitis voluptatibus, esse perfecto reformidans id has. Eam id posse dictas voluptua, veniam laoreet oportere no mea, quis regione
+                suscipiantur mea an. Eu eam dolores lobortis percipitur, quo te equidem deleniti disputando.
+              </p>
+              <a href="#" class="review__link button-swipe-right" target="_blank"><svg class="review__link-arrow" width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9084 5.05887L19.9084 6.08393L19.9084 14.2844L18.9144 14.2844L18.9144 6.75983L5.41259 20.2616L4.70549 19.5545L18.176 6.08393L10.7491 6.08393L10.7491 5.05887L18.9144 5.05887L19.9084 5.05887Z"/>
+                </svg>Читать полностью</a>
+            </blockquote>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-  <section class="social"></section>
-  
-  <footer></footer>
-<script src="./script/index.js"></script>
+    <section class="feedback">
+      <div class="feedback__wrap slider">
+        <div class="feedback__top-wrap slider__wrap">
+          <h2 class="feedback__title slider__title">Отзывы зрителей</h2>
+          <ul class="feedback__dots slider__dots">
+            <li class="feedback__dots-item slider__dots-item"></li>
+            <li class="feedback__dots-item slider__dots-item"></li>
+            <li class="feedback__dots-item slider__dots-item"></li>
+            <li class="feedback__dots-item slider__dots-item"></li>
+          </ul>
+          <div class="feedback__buttons slider__buttons">
+            <button class="feedback__button slider__button slider__button_type_prev" type="button" aria-label="Предыдущий">
+              <svg width="51" height="50" xmlns="http://www.w3.org/2000/svg"><path d="M25 1C11.745 1 1 11.745 1 25s10.745 24 24 24" stroke="#242424"/>
+                <path class="slider__arrow" fill-rule="evenodd" clip-rule="evenodd" d="m15 24.477.725.724L21.523 31l.703-.703-5.32-5.32H36v-1H16.95l5.251-5.252-.724-.725-5.774 5.774-.703.703Z"/></svg>
+              <svg class="slider__left-arc" xmlns="http://www.w3.org/2000/svg"><path d="M25 1C11.745 1 1 11.745 1 25s10.745 24 24 24" stroke="#242424"/></svg>
+            </button>
+            <button class="feedback__button slider__button slider__button_type_next" type="button" aria-label="Следующий">
+              <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg"><path d="M25 1c13.255 0 24 10.745 24 24S38.255 49 25 49" stroke="#242424"/>
+                <path class="slider__arrow" fill-rule="evenodd" clip-rule="evenodd" d="m35 24.477-.725.724L28.477 31l-.703-.703 5.32-5.32H14v-1h19.05L27.8 18.725l.724-.725 5.774 5.774.703.703Z"/></svg>
+              <svg class="slider__right-arc" xmlns="http://www.w3.org/2000/svg"><path d="M25 1c13.255 0 24 10.745 24 24S38.255 49 25 49" stroke="#242424"/></svg>
+            </button>
+          </div>
+        </div>
+        <ul class="feedback__list slider__list">
+          <li class="feedback__item feedback__item_active">
+            <blockquote class="feedback__blockquote">
+              <p class="feedback__text">
+                Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка возникает — я думаю, и пьеса написана с этой интонацией
+                американских взрослых мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!
+              </p>
+              <p class="feedback__author">Наталья Зайцева</p>
+            </blockquote>
+          </li>
+          <li class="feedback__item">
+            <blockquote class="feedback__blockquote">
+              <p class="feedback__text">
+                Для самой этой истории формат читки работает отличным ироническим отстранением
+              </p>
+              <p class="feedback__author">Дина Годер</p>
+            </blockquote>
+          </li>
+          <li class="feedback__item">
+            <blockquote class="feedback__blockquote">
+              <p class="feedback__text">
+                Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на нем надето,
+                какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно, ведь я как будто сама поучаствовала в спектакле
+              </p>
+              <p class="feedback__author">Дарья Морозова</p>
+            </blockquote>
+          </li>
+          <li class="feedback__item">
+            <blockquote class="feedback__blockquote">
+              <p class="feedback__text">
+                Спектакль несколько провокационный, но очень любопытный - действия актёров совсем не выпуклы - сидят и просто читают,
+                каждый свой текст. Не бегают туда - сюда, хотя много страсти, динамики в сюжете. Необычно.
+              </p>
+              <p class="feedback__author">Галина Николаева</p>
+            </blockquote>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="social">
+      <div class="social__photo-container">
+        <img src="./images/social/photo-1.jpg" alt="Фотография парня и девушки, и чьих-то ног" class="social__photo">
+      </div>
+      <div class="social__group">
+        <ul class="social__list">
+          <li class="social__item button-swipe-right">
+            <button class="social__link"><svg class="social__svg" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.7232e-08 6.52344L0.724826 5.79861L6.52344 -2.21465e-08L7.22631 0.702867L1.90563 6.02354L21 6.02354L21 7.02354L1.94976 7.02354L7.20139 12.2752L6.47656 13L0.702867 7.22631L7.7232e-08 6.52344Z"></path>
+            </svg>fb</button>
+          </li>
+          <li class="social__item button-swipe-right">
+            <button class="social__link"><svg class="social__svg" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.7232e-08 6.52344L0.724826 5.79861L6.52344 -2.21465e-08L7.22631 0.702867L1.90563 6.02354L21 6.02354L21 7.02354L1.94976 7.02354L7.20139 12.2752L6.47656 13L0.702867 7.22631L7.7232e-08 6.52344Z"></path>
+            </svg>vk</button>
+          </li>
+          <li class="social__item button-swipe-right">
+            <button class="social__link"><svg class="social__svg" width="21" height="13" viewBox="0 0 21 13" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M7.7232e-08 6.52344L0.724826 5.79861L6.52344 -2.21465e-08L7.22631 0.702867L1.90563 6.02354L21 6.02354L21 7.02354L1.94976 7.02354L7.20139 12.2752L6.47656 13L0.702867 7.22631L7.7232e-08 6.52344Z"></path>
+            </svg>twtr</button>
+          </li>
+        </ul>
+        <h2 class="social__title">Рассказать</h2>
+        <h2 class="social__subtitle">о&nbsp;спектакле в&nbsp;соцсетях</h2>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="./images/footer/logo_footer.png" alt="Логотип" class="footer__logo">
+    <div class="footer__partners partners">
+      <p class="partners__title">Генеральные партнеры</p>
+      <ul class="partners__list">
+        <li class="partners__item"><a href="http://www.prokhorovfund.ru/"><img src="./images/footer/fond.png" alt="Фонд Михаила Прохорова" class="partners__img"></a></li>
+        <li class="partners__item"><a href="https://brewhouse.pro/"><img src="./images/footer/mosbrew-png.png" alt="Московская Пивоваренная Компания" class="partners__img"></a></li>
+      </ul>
+      <p class="partners__title">Онлайн-трансляции</p>
+      <ul class="partners__list">
+        <li class="partners__item"><a href="http://sbtg.ru/"><img src="./images/footer/sbtg.png" alt="Организация интернет-трансляций и вебинаров" class="partners__img"></a></li>
+        <li class="partners__item"><a href="#"><img src="./images/footer/pogovorit-png.png" alt="Логотип какой-то компании" class="partners__img"></a></li>
+      </ul>
+    </div>
+    <div class="footer__contacts">
+      <p class="footer__area">Площадка «8/3»</p>
+      <p class="footer__address">Москва, ул.&nbsp;Казакова,&nbsp;8,&nbsp;стр.&nbsp;3 Метро «Курская»</p>
+    </div>
+    <nav class="footer__menu">
+      <ul class="footer__menu-list">
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Любимовка</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Афиша</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Библиотека</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Блог</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Новости</a></li>
+      </ul>
+      <ul class="footer__menu-list">
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">О фестивале</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Организаторы</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">История</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Контакты</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Для прессы</a></li>
+      </ul>
+      <ul class="footer__menu-list">
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Все проекты</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Любимовка.Ещё</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Спектакли</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Сборник Любимовка.Пьесы</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Lark+Любимовка</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Практика постдраматурга</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link fade brackets">Эхо Любимовки</a></li>
+      </ul>
+    </nav>
+    <div class="footer__copyright-group">
+      <p class="footer__copyright">&copy; Любимовка, 2022</p>
+      <p class="footer__polices"><a href="#" class="footer__polices-link fade">Политика конфиденциальности</a></p>
+    </div>
+    <p class="footer__design">дизайн сайта — <a href="#" class="footer__link fade">shishki.collective</a></p>
+    <p class="footer__develop">вёрстка и разработака — студенты <a href="#" class="footer__link fade">Яндекс.Практикума</a></p>
+  </footer>
+  <div class="popup-photo">
+    <div class="popup-photo__container"><img class="popup-photo__item" src="#" alt="Театр"></div>
+  </div>
+  <script src="./pages/index.js"></script>
+  <script src="./scripts/slider.js"></script>
 </body>
 </html>

@@ -1,0 +1,11 @@
+.slider__list {
+  margin: 35px 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 800px) {
+  .slider__list {
+    margin-top: -40px;
+  }
+}

@@ -1,0 +1,15 @@
+.header__social-nav {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-left: 1px solid #242424;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__social-nav {
+    border: none;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

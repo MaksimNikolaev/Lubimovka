@@ -1,0 +1,11 @@
+@media screen and (max-width: 1023px) {
+  .video__text_place_wrapper {
+    margin-left: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__text_place_wrapper {
+    margin-left: 68px;
+  }
+}

@@ -1,0 +1,15 @@
+.slider__dots-item {
+  width: 8px;
+  height: 8px;
+  margin-right: 15px;
+  background: no-repeat center url(../../../images/slider/dot.svg);
+}
+
+.slider__dots-item:last-of-type {
+  margin-right: 0;
+}
+
+.slider__dots-item:hover {
+  background: no-repeat center url(../../../../images/slider/dot-active.svg);
+  cursor: pointer;
+}

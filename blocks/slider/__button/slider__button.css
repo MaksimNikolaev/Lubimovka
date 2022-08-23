@@ -1,0 +1,38 @@
+.slider__button {
+  padding: 0;
+  border: none;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background-color: transparent;
+  fill: none;
+  transition-property: background-color, border-radius;
+  transition-delay: 0.3s;
+}
+
+.slider__button:hover {
+  cursor: pointer;
+  background-color: #242424;
+  border-radius: 50%;
+}
+
+.slider__button:active {
+  transform: scale(1.1);
+}
+
+.slider__button:hover .slider__arrow {
+  fill: aliceblue;
+}
+
+.slider__button:hover .slider__left-arc  {
+  visibility: visible;
+  z-index: -1;
+  transform: rotate(-180deg);
+}
+
+.slider__button:hover .slider__right-arc  {
+  visibility: visible;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+

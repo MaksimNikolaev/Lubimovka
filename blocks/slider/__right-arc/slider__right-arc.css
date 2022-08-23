@@ -1,0 +1,9 @@
+.slider__right-arc {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  visibility: hidden;
+  transition: transform 0.3s;
+}

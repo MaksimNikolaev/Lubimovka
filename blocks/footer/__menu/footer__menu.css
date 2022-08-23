@@ -1,0 +1,18 @@
+.footer__menu {
+  grid-area: menu; 
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .footer__menu {
+    justify-self: normal;
+  }
+}
+
+@media (max-width: 414px) {
+  .footer__menu {
+    flex-wrap: wrap;
+    justify-content: normal;
+  }
+}

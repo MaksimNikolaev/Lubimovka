@@ -1,0 +1,11 @@
+.review {
+  overflow: hidden;
+  margin-bottom: 112px;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .review {
+    margin-bottom: 76px;
+  }
+}

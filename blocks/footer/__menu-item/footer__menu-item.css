@@ -1,0 +1,15 @@
+.footer__menu-item {
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+.footer__menu-item:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 414px) {
+  .footer__menu-item {
+    margin-right: 24px;
+    margin-bottom: 13px;
+  }
+}
